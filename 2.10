@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define pi 3.1416
+
+int main()
+{
+    float rad, superf, perim, vol;
+    printf("Ingresar el valor del radio de un circulo en radianes (mayor a cero)");
+    scanf("%f",&rad);
+    
+    superf= pi*rad*rad;
+    perim= 2*pi*rad;
+    vol=1.33*pi*rad*rad*rad;
+    
+    printf("La superficie del circulo es: %f\n El perimetro de la esfera es: %f\n El volumen de la esfera es: %f\n",superf, perim, vol);
+    
+    system ("pause");
+    return 0;
+}
